@@ -5,4 +5,5 @@ memory: 8192
 shim:
   listen-port: 443
   upstream-port: 8080
-  tls-wildcard: true
+  tls-mode: cert-proxy
+  tls-challenge: http
